@@ -1,46 +1,18 @@
-# MySQL-Project-on-Clinictrial-Dataset
+# Clinical Trial Dataset
 
-### Dataset Name: Clinictrial Dataset
-### Columns:
-### Name:
-The name of the individual.
+## 📂 Dataset Description
+This repository contains a dataset related to clinical trials, including information on participants' blood pressure, cholesterol levels, age, pregnancy status, anxiety levels, and drug reactions. The dataset is structured in CSV format and can be used for data analysis and visualization.
 
-Data type: Text/String.
+## 🏥 **Dataset Details**
+- **Filename:** `clinictrial.csv`
+- **Total Records:** 30
+- **Columns:**
+  - `Name` → Name of the participant
+  - `BP` → Blood pressure level (integer)
+  - `Chlstrl` → Cholesterol level (integer)
+  - `Age` → Age of the participant (integer)
+  - `Pregnant` → Whether the participant is pregnant (`yes/no`)
+  - `Anxty_LH` → High anxiety level (`yes/no`)
+  - `Drug_Reaction` → Whether the participant had a drug reaction (`yes/no`)
 
-### BP (Blood Pressure):
-Records the blood pressure of individuals.
 
-Data type: Integer (likely in mmHg).
-
-### Chlstrl (Cholesterol):
-Indicates the cholesterol level of individuals.
-
-Data type: Integer.
-
-### Age:
-The age of individuals.
-
-Data type: Integer.
-
-### Pregnant:
-Indicates whether the individual is pregnant (yes or no).
-
-Data type: Categorical (yes/no).
-
-### Anxty_LH (Anxiety Level High):
-Indicates whether the individual experienced high anxiety levels (yes or no).
-
-Data type: Categorical (yes/no).
-
-### Drug_Reaction:
-Indicates if the individual had any adverse reaction to the drug (yes or no).
-
-Data type: Categorical (yes/no).
-
-### Age_group (Derived):
-Categorized as Low (Age < 18) or High (Age >= 18).
-
-Data type: Categorical (Low/High).
-
-### Summary:
-The dataset seems to contain clinical trial data for individuals, with health-related metrics such as blood pressure, cholesterol levels, and age. Additional indicators like pregnancy status, anxiety levels, and drug reactions are also included.
